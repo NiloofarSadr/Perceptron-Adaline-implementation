@@ -6,6 +6,7 @@ Model and Dataset: The major goal of the model is to learn the pattern of a set 
 (If the above characters do not seem rational to you, copy on a txt file and split each seven characters with \n-enter or see the ReadMe on the code tab)
 Which represents character “B”. For the test set, we have the same but with some noises, thus, each main character is represented by {.,#,@, O}. The {O, @} in this set represents the noises. Generally, each data is a text file consisting of 7*9 characters (with mentioned characters for train and test set) that represent a main character (from A to K.) The final goal of the model is to classify main characters by learning from representative characters.
 At first, we read all characters from the file and add them to a list. then we replace all points with -1 and all "#" with 1.
+
 1- Perceptron:
 we run the Perceptron algorithm on these situations and then discussed the result:
 a) Initial values of weights/bias':
